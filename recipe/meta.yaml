@@ -1,5 +1,5 @@
 {% set name = "a2wsgi" %}
-{% set version = "1.10.8" %}
+{% set version = "1.10.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/a2wsgi-{{ version }}.tar.gz
-  sha256: fc00bab1fc792f89a8ce1b491b2ad1717b145d8caefb75d0a8586946edc97cb2
+  sha256: 7ca30b71c69b688c3a19b911be5bc78506e1b7507768951ed7ed010e7b2164af
 
 build:
   noarch: python
