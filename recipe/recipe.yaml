@@ -33,6 +33,7 @@ tests:
         - a2wsgi
       pip_check: true
       python_version: ${{ python_min }}.*
+
 about:
   summary: Convert WSGI app to ASGI app or ASGI app to WSGI app.
   license: Apache-2.0
